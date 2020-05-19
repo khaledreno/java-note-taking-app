@@ -22,6 +22,8 @@ public class Note {
     @Column(name = "label")
     private String label;
 
+
+
     public int getId() {
         return id;
     }
@@ -53,4 +55,5 @@ public class Note {
     public void setLabel(String label) {
         this.label = label;
     }
+
 }
